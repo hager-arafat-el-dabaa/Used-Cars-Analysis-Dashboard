@@ -352,7 +352,7 @@ The dashboard allows users to explore the cleaned dataset interactively.
 
 ### Live Dashboard
 
-🚗 **[Open the Live Dashboard](https://used-cars-eda-ormwx5of7umx8k49yjgdfs.streamlit.app/)**
+🚗 [**Open the Live Dashboard**](https://used-cars-eda-ormwx5of7umx8k49yjgdfs.streamlit.app/)
 
 ---
 
@@ -385,19 +385,19 @@ The dashboard allows users to explore the cleaned dataset interactively.
 
 ### GitHub Repository
 
-🔗 **[View the Full Project on GitHub](https://github.com/hager-arafat-el-dabaa/Used-Cars-EDA)**
+ [**View the Full Project on GitHub**](https://github.com/hager-arafat-el-dabaa/Used-Cars-EDA)
 
 ### Original Dataset
 
-📄 **[View Original Dataset](./car_data.csv)**
+ [**View Original Dataset**](./car_data.csv)
 
 ### Cleaned Dataset
 
-📄 **[View Cleaned Dataset](./cleaned_car_data.csv)**
+ [**View Cleaned Dataset**](./cleaned_car_data.csv)
 
 ### Live Streamlit Dashboard
 
-🚗 **[Open Live Dashboard](https://used-cars-eda-ormwx5of7umx8k49yjgdfs.streamlit.app/)**
+ [**Open Live Dashboard**](https://used-cars-eda-ormwx5of7umx8k49yjgdfs.streamlit.app/)
 
 ---
 
