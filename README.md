@@ -1,8 +1,7 @@
-# Used Cars — Exploratory Data Analysis & Interactive Dashboard
-
+# Used Cars — Data Analysis & Interactive Dashboard
 ## Project Overview
 
-This project performs a complete Exploratory Data Analysis (EDA) on a used cars dataset.
+This project performs a complete data analysis of a used cars dataset, including data inspection, cleaning, feature engineering, exploratory data analysis (EDA), visualization, and an interactive dashboard.
 
 The project focuses on understanding the dataset, identifying and fixing data quality issues, creating useful features, exploring patterns and relationships, and presenting the results through an interactive Streamlit dashboard.
 
@@ -198,15 +197,14 @@ The final dataset was then used for Feature Engineering and EDA.
 
 # 3. Feature Engineering
 
+
 After cleaning the data, two new features were created to make the analysis more meaningful.
 
-## 3.1 Car Age
+3.1 Car Age
 
-A new feature called `car_age` was created using the latest manufacturing year available in the dataset:
+A new feature called "car_age" was created using 2020 as the reference year:
 
-```python
 df_clean['car_age'] = 2020 - df_clean['year']
-```
 
 This converts the manufacturing year into an easier-to-interpret measure of vehicle age.
 
@@ -215,22 +213,19 @@ For example:
 * A car manufactured in 2017 → age = 3
 * A car manufactured in 2012 → age = 8
 
-Missing manufacturing years naturally result in missing `car_age` values.
+Missing manufacturing years naturally result in missing "car_age" values.
 
----
+3.2 Car Brand
 
-## 3.2 Car Brand
-
-The `brand` feature was extracted from the first word of the car name.
+The "brand" feature was extracted from the first word of the car name.
 
 For example:
 
-* `Maruti 800 AC` → `Maruti`
-* `Hyundai Verna 1.6 SX` → `Hyundai`
-* `Honda Amaze VX i-DTEC` → `Honda`
+* "Maruti 800 AC" → "Maruti"
+* "Hyundai Verna 1.6 SX" → "Hyundai"
+* "Honda Amaze VX i-DTEC" → "Honda"
 
 This makes brand-level analysis easier without having to work with the complete car model name.
-
 ---
 
 # 4. Univariate Analysis
